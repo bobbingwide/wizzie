@@ -20,8 +20,13 @@ function wizzie_render_block_core_template_part( $attributes, $content, $block  
     static $seen_ids = array();
 
     $template_part_id = null;
+    $template_part_file_path = null;
     $content          = null;
     $area             = WP_TEMPLATE_PART_AREA_UNCATEGORIZED;
+
+    if ( !isset( $attributes['theme'] ) ) {
+        $attributes['theme'] = get_stylesheet();
+    }
 
     if (
         isset( $attributes['slug'] ) &&
@@ -83,8 +88,10 @@ function wizzie_render_block_core_template_part( $attributes, $content, $block  
         }
         return sprintf(
         /* translators: %s: Template part slug. */
-            __( 'Template part has been deleted or is unavailable: %s' ),
-            $attributes['slug']
+            __( 'Wizzie: Template part has been deleted or is unavailable: %s.%s.%s' ),
+            $attributes['slug'],
+            $template_part_file_path,
+            $template_part_id
         );
     }
 
