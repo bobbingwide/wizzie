@@ -14,6 +14,12 @@ function wizzie_after_setup_theme() {
     // No need to enqueue styles yet.
     // Assuming theme.json will provide some
     add_action('wp_enqueue_scripts', 'wizzie_enqueue_styles');
+
+    // If I uncomment the next add_theme_support() line then
+    // the site doesn't work with the current version of WooCommerce.
+    // I haven't yet found out what I don't get by not adding theme support.
+    // Herb 2021/06/10 with WooCommerce 5.4, Gutenberg 10.8.0 and WordPress 5.7.2
+    //add_theme_support( 'woocommerce');
 }
 
 /**
@@ -25,9 +31,10 @@ function wizzie_init() {
     }
 }
 
+/**
+ * Enqueues the parent theme's stylesheet.
+ */
 function wizzie_enqueue_styles() {
-	//$theme_version = wp_get_theme()->get( 'Version' );
-
 	if ( defined( 'SCRIPT_DEBUG') && SCRIPT_DEBUG ) {
         $theme_version = filemtime( get_template_directory() . "/style.css" );
 	} else {
@@ -36,20 +43,13 @@ function wizzie_enqueue_styles() {
 	wp_enqueue_style( 'wizzie', get_template_directory_uri() . '/style.css', array(), $theme_version );
 }
 
-
-
 add_action( 'after_setup_theme', 'wizzie_after_setup_theme');
-//add_action( 'after_setup_theme', 'wizzie_stanley_theme_support');
 add_action( 'init', 'wizzie_init', 20 );
 
-
 require_once __DIR__ . '/includes/block-overrides.php';
-
-
 
 if ( !function_exists( "bw_trace2" ) ) {
     function bw_trace2( $content, $args) {
         return $content;
     }
-
 }
