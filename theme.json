@@ -93,7 +93,16 @@
             "name": "White",
             "slug": "white",
             "color": "#ffffff"
-          }
+          },
+        { "name": "Woo Purple",
+        "slug":  "woo-purple",
+        "color":  "#a46497"
+        },
+        { "name": "Woo Deep Purple",
+          "slug":  "woo-deep-purple",
+          "color":  "#96588a"
+        }
+
         ]
     },
     "custom": {},
@@ -213,12 +222,12 @@
       "background": "var(--wp--preset--color--background)"
     },
     "typography": {
-      "fontFamily": "var(--wp--preset--font-family--opensans)"
+      "fontFamily": "var(--wp--preset--font-family--geneva-verdana)"
     },
     "elements": {
       "link": {
         "color": {
-          "text": "var( --wp--preset--color--link)"
+          "text": "var( --woocommerce )"
   }
       }
     },
@@ -230,7 +239,7 @@
       },
       "core/table": {
         "border": {
-          "color": "green",
+          "color": "var( --woocommerce )",
           "width": "2px",
           "style": "dashed"
         }
