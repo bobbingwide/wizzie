@@ -19,7 +19,23 @@ function wizzie_after_setup_theme() {
     // the site doesn't work with the current version of WooCommerce.
     // I haven't yet found out what I don't get by not adding theme support.
     // Herb 2021/06/10 with WooCommerce 5.4, Gutenberg 10.8.0 and WordPress 5.7.2
+	// See also https://github.com/woocommerce/woocommerce/pull/30013
     //add_theme_support( 'woocommerce');
+
+	/**
+	 * Because we haven't added 'woocommerce' theme support we have to reimplement some of the logic that WooCommerce
+	 * would have used.  See the logic in WC_Template_Loader.
+	 * For Reviews we reapply the Review tab logic.
+	 * which means we need to implement the `comments_template` filter that replaces
+	 * the normal comment form by WooCommerce's Reviews plus the 'Add a review' comment form.
+	 */
+	add_filter( 'woocommerce_product_tabs',  'wizzie_unsupported_theme_reapply_review_tab', 11 );
+	add_filter( 'comments_template', array( 'WC_Template_Loader','comments_template_loader' )  );
+}
+
+function wizzie_unsupported_theme_reapply_review_tab( $tabs ) {
+	$tabs['reviews'] = [ 'title' => "Reviews", 'priority' => 30, 'callback'=> 'comments_template'];
+	return $tabs;
 }
 
 /**
