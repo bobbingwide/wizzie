@@ -3,8 +3,8 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: blocks, FSE, Gutenberg, child-theme
 Requires at least: 5.5.1
-Tested up to: 5.7.2
-Version: 0.0.0
+Tested up to: 5.8.0
+Version: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,9 +82,11 @@ For the Output Input Debugging custom template
 
 == Change Log ==
 
+= 0.1.0 = 
+* Changed: Enable Reviews when woocommerce theme support is not specified #7
+* Changed: Rename templates and add debug info #1
 
 = 0.0.0 =
-
 * Fixed: Set default typography fontFamily and link color. Add two WooCommercey purples
 * Added: Add screenshot
 * Changed: Support nested template parts which don't specify the theme attribute #4
@@ -98,8 +100,6 @@ For the Output Input Debugging custom template
 * Added: Implement template part override to allow the child themes to use a parent theme's template parts #1
 * Added: Enqueue style.css from the parent theme and override template-part block rendering. #1
 * Added: Add style.css - copied from Fizzie but all styling removed. #1
-
-
 
 === Block overrides ===
 
