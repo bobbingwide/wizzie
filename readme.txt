@@ -3,8 +3,8 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: blocks, FSE, Gutenberg, child-theme
 Requires at least: 5.5.1
-Tested up to: 5.8.0
-Version: 0.1.0
+Tested up to: 5.8.2
+Version: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,8 @@ For the Output Input Debugging custom template
  
 
 == Change Log ==
+= 0.1.1 = 
+* Changed: Support function renames in Gutenberg 11.9.0 #9
 
 = 0.1.0 = 
 * Changed: Enable Reviews when woocommerce theme support is not specified #7
