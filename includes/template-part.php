@@ -132,7 +132,11 @@ function wizzie_render_block_core_template_part( $attributes, $content, $block  
     $content = do_shortcode( $content );
 
     if ( empty( $attributes['tagName'] ) ) {
-        $defined_areas = gutenberg_get_allowed_template_part_areas();
+        if ( function_exists( 'gutenberg_get_allowed_template_part_areas')) {
+            $defined_areas = gutenberg_get_allowed_template_part_areas();
+        } else {
+            $defined_areas = get_allowed_block_template_part_areas();
+        }
         $area_tag      = 'div';
         foreach ( $defined_areas as $defined_area ) {
             if ( $defined_area['area'] === $area && isset( $defined_area['area_tag'] ) ) {
