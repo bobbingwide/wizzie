@@ -3,16 +3,16 @@
 * Contributors: bobbingwide, vsgloik
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: blocks, FSE, Gutenberg, child-theme
-* Requires at least: 5.5.1
-* Tested up to: 5.8.2
+* Requires at least: 5.8
+* Tested up to: 5.9
 * Version: 0.1.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Wizzie theme - Experimental WooCommerce Full Site Editing child theme of Fizzie
+Wizzie theme - WooCommerce Full Site Editing child theme of Fizzie
 
 ## Description 
-This is an experimental theme attempting to implement Full Site Editing (FSE) with Gutenberg blocks and WooCommerce.
+Full Site Editing (FSE) with Gutenberg blocks and WooCommerce.
 
 The theme is required to replace the Genesis-a2z theme that is used in [woocommerce.wp-a2z.org](https://woocommerce.wp-a2z.org)
 
@@ -82,6 +82,13 @@ For the Output Input Debugging custom template
 
 
 ## Change Log 
+# 1.0.0 
+* Changed: Support WordPress 5.9 and Gutenberg 12.4.0 #10
+* Changed: Update to match changes in Fizzie v1.0.0 #10
+* Tested: With WordPress 5.9 and WordPress Multi Site
+* Tested: With Gutenberg 12.4.0
+* Tested: With WooCommerce 6.0.0 and WooCommerce Blocks 6.8.0
+
 # 0.1.1 
 * Changed: Support function renames in Gutenberg 11.9.0 #9
 
@@ -114,7 +121,7 @@ Improvement areas include:
 
 
 ## Copyright 
-(C) Copyright Herb Miller, Bobbing Wide 2021
+(C) Copyright Herb Miller, Bobbing Wide 2021,2022
 
 * This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
