@@ -63,12 +63,12 @@ function wizzie_render_block_core_template_part( $attributes, $content, $block  
             // Else, if the template part was provided by the active theme,
             // render the corresponding file content.
 
-            $template_part_file_path = get_stylesheet_directory() . '/block-template-parts/' . $attributes['slug'] . '.html';
+            $template_part_file_path = get_stylesheet_directory() . '/parts/' . $attributes['slug'] . '.html';
             //echo $template_part_file_path;
             if ( 0 === validate_file( $attributes['slug'] ) && file_exists( $template_part_file_path ) ) {
                 $content = file_get_contents( $template_part_file_path );
             } else {
-                $template_part_file_path = get_template_directory() . '/block-template-parts/' . $attributes['slug'] . '.html';
+                $template_part_file_path = get_template_directory() . '/parts/' . $attributes['slug'] . '.html';
                 //echo $template_part_file_path;
                 if ( file_exists( $template_part_file_path ) ) {
                     $content = file_get_contents($template_part_file_path);
