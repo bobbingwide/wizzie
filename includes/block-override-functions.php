@@ -19,11 +19,15 @@
  * @return array Block attributes.
  */
 function wizzie_maybe_override_block( $args, $blockname, $render_callback ) {
+
     $wizzie_render_callback = 'wizzie_' . $render_callback;
     if ( $blockname == $args['name'] && function_exists( $wizzie_render_callback ) ) {
-        if ( 'gutenberg_' . $render_callback == $args['render_callback'] ) {
+		//bw_trace2();
+        //if ( 'gutenberg_' . $render_callback == $args['render_callback'] ) {
             $args['render_callback'] = $wizzie_render_callback;
-        }
+        //} else {
+		//	bw_trace2( $args, "args" );
+        //}
     }
     return $args;
 }
