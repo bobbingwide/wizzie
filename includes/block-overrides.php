@@ -29,7 +29,7 @@ require_once __DIR__ . '/template-part.php';
 /**
  * Hook into register_block_types_args before WP_Block_Supports
  */
-add_filter( 'register_block_type_args', 'wizzie_register_block_type_args', 9 );
+add_filter( 'register_block_type_args', 'wizzie_register_block_type_args', 10 );
 
 /**
  * Implements overrides for core blocks which we need to improve.
