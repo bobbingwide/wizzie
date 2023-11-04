@@ -1,0 +1,122 @@
+# Copyright (C) 2022
+# This file is distributed under the same licence as WordPress
+msgid ""
+msgstr ""
+"Project-Id-Version: wizzie\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wizzie\n"
+"POT-Creation-Date: 2023-03-14 07:21:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: front-page.html core/html div>#text
+msgid "Wizzie front-page.html"
+msgstr ""
+
+#: front-page.html core/button div
+msgid "<a class=\"wp-block-button__link\" href=\"https://woocommerce.wp.a2z/product/my-favourite-block-annotated/\">Shop now</a>"
+msgstr ""
+
+#: index.html core/html div>#text
+msgid "Wizzie index.html"
+msgstr ""
+
+#: page-cart.html core/html div>#text
+msgid "Wizzie page-cart.html"
+msgstr ""
+
+#: page-checkout.html core/html div>#text
+msgid "Wizzie page-checkout.html"
+msgstr ""
+
+#: page-my-account.html core/html div>#text
+msgid "Wizzie page-my-account.html"
+msgstr ""
+
+#: page-shop.html core/html div>#text
+msgid "Wizzie page-shop.html"
+msgstr ""
+
+#: single-product.html core/html div>#text
+msgid "Wizzie single-product.html"
+msgstr ""
+
+#: customer-reviews.html core/heading h2>#text
+msgid "Customer reviews"
+msgstr ""
+
+#: footer-menu.html core/home-link  label
+msgid "Home"
+msgstr ""
+
+#: footer-menu.html core/navigation-link  label
+msgid "Blog"
+msgstr ""
+
+#: footer-menu.html core/navigation-link  label
+msgid "Sitemap"
+msgstr ""
+
+#: footer-menu.html core/navigation-link  label
+msgid "Sites"
+msgstr ""
+
+#: footer-menu.html core/navigation-link  label
+msgid "My account"
+msgstr ""
+
+#: footer-menu.html core/navigation-link  label
+msgid "Cart"
+msgstr ""
+
+#: footer-menu.html core/navigation-link  label
+msgid "Checkout"
+msgstr ""
+
+#: footer-menu.html core/navigation-link  label
+msgid "API reference"
+msgstr ""
+
+#: header-menu.html core/navigation-link  label
+msgid "Blocks"
+msgstr ""
+
+#: header-menu.html core/navigation-link  label
+msgid "Plugins"
+msgstr ""
+
+#: header-menu.html core/navigation-link  label
+msgid "Themes"
+msgstr ""
+
+#: header-menu.html core/navigation-link  label
+msgid "Block news"
+msgstr ""
+
+#: header-menu.html core/navigation-link  label
+msgid "About"
+msgstr ""
+
+#: header-menu.html core/navigation-link  label
+msgid "Shop"
+msgstr ""
+
+#: header.html core/html div>#text
+msgid "Wizzie header.html"
+msgstr ""
+
+#: page-footer.html core/shortcode p>#text
+msgid "[bw_blogs]"
+msgstr ""
+
+#: product-categories.html core/heading h2>#text
+msgid "Product Categories"
+msgstr ""
+
+#: product-categories.html core/paragraph p>#text
+msgid "[product_categories]"
+msgstr ""
+

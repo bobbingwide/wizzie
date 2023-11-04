@@ -1,0 +1,123 @@
+# Copyright (C) 2022
+# This file is distributed under the same licence as WordPress
+msgid ""
+msgstr ""
+"Project-Id-Version: wizzie\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wizzie\n"
+"POT-Creation-Date: 2023-03-14 07:21:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Language: bb_BB\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+#: front-page.html core/html div>#text
+msgid "Wizzie front-page.html"
+msgstr "Wziize fornt-pgae.hmtl"
+
+#: front-page.html core/button div
+msgid "<a class=\"wp-block-button__link\" href=\"https://woocommerce.wp.a2z/product/my-favourite-block-annotated/\">Shop now</a>"
+msgstr "<a class=\"wp-block-button__link\" href=\"https://woocommerce.wp.a2z/product/my-favourite-block-annotated/\">Shop now</a>"
+
+#: index.html core/html div>#text
+msgid "Wizzie index.html"
+msgstr "Wziize idnex.hmtl"
+
+#: page-cart.html core/html div>#text
+msgid "Wizzie page-cart.html"
+msgstr "Wziize pgae-crat.hmtl"
+
+#: page-checkout.html core/html div>#text
+msgid "Wizzie page-checkout.html"
+msgstr "Wziize pgae-cehkcuot.hmtl"
+
+#: page-my-account.html core/html div>#text
+msgid "Wizzie page-my-account.html"
+msgstr "Wziize pgae-my-accuont.hmtl"
+
+#: page-shop.html core/html div>#text
+msgid "Wizzie page-shop.html"
+msgstr "Wziize pgae-sohp.hmtl"
+
+#: single-product.html core/html div>#text
+msgid "Wizzie single-product.html"
+msgstr "Wziize snilge-porudct.hmtl"
+
+#: customer-reviews.html core/heading h2>#text
+msgid "Customer reviews"
+msgstr "Csuotemr rveeiws"
+
+#: footer-menu.html core/home-link  label
+msgid "Home"
+msgstr "Hmoe"
+
+#: footer-menu.html core/navigation-link  label
+msgid "Blog"
+msgstr "Bolg"
+
+#: footer-menu.html core/navigation-link  label
+msgid "Sitemap"
+msgstr "Stimeap"
+
+#: footer-menu.html core/navigation-link  label
+msgid "Sites"
+msgstr "Sties"
+
+#: footer-menu.html core/navigation-link  label
+msgid "My account"
+msgstr "My accuont"
+
+#: footer-menu.html core/navigation-link  label
+msgid "Cart"
+msgstr "Crat"
+
+#: footer-menu.html core/navigation-link  label
+msgid "Checkout"
+msgstr "Cehkcuot"
+
+#: footer-menu.html core/navigation-link  label
+msgid "API reference"
+msgstr "API rferenece"
+
+#: header-menu.html core/navigation-link  label
+msgid "Blocks"
+msgstr "Bolkcs"
+
+#: header-menu.html core/navigation-link  label
+msgid "Plugins"
+msgstr "Puligns"
+
+#: header-menu.html core/navigation-link  label
+msgid "Themes"
+msgstr "Tehems"
+
+#: header-menu.html core/navigation-link  label
+msgid "Block news"
+msgstr "Bolck nwes"
+
+#: header-menu.html core/navigation-link  label
+msgid "About"
+msgstr "Aobut"
+
+#: header-menu.html core/navigation-link  label
+msgid "Shop"
+msgstr "Sohp"
+
+#: header.html core/html div>#text
+msgid "Wizzie header.html"
+msgstr "Wziize haeedr.hmtl"
+
+#: page-footer.html core/shortcode p>#text
+msgid "[bw_blogs]"
+msgstr "[bw_blogs]"
+
+#: product-categories.html core/heading h2>#text
+msgid "Product Categories"
+msgstr "Porudct Ctageroeis"
+
+#: product-categories.html core/paragraph p>#text
+msgid "[product_categories]"
+msgstr "[product_categories]"
+
