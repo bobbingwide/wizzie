@@ -5,7 +5,7 @@
 * Tags: blocks, FSE, Gutenberg, child-theme
 * Requires at least: 5.8
 * Tested up to: 5.9
-* Version: 0.1.1
+* Version: 1.1.0
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,6 +82,16 @@ For the Output Input Debugging custom template
 
 
 ## Change Log 
+# 1.1.0 
+* Changed: Add language files
+* Fixed: Register overrides after Fizzie #13
+* Changed: Display product categories using shortcode and block
+* Changed: Don't test for Gutenberg before overriding #13
+* Fixed: Avoid undefined id #11
+* Tested: With WordPress 6.4-RC3 and WordPress Multisite
+* Tested: With Gutenberg 16.9.0
+* Tested: With WooCommerce 8.2.1 and WooCommerce Blocks 7.3.0
+
 # 1.0.0 
 * Changed: Support WordPress 5.9 and Gutenberg 12.4.0 #10
 * Changed: Update to match changes in Fizzie v1.0.0 #10
@@ -121,7 +131,7 @@ Improvement areas include:
 
 
 ## Copyright 
-(C) Copyright Herb Miller, Bobbing Wide 2021,2022
+(C) Copyright Herb Miller, Bobbing Wide 2021,2022,2023
 
 * This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
